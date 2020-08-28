@@ -1,0 +1,28 @@
+#navbar-size {
+  background-color: #610fd6;
+  box-shadow: 0 7px 30px -6px rgba(0, 0, 0, 0.200);
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-categories a {
+  margin: 30px;
+  color: white;
+  font-style: oblique;
+  font-weight: 600;
+  
+  position: relative;
+}
+.navbar-categories a:hover {
+  color: rgb(214, 206, 206);
+  transition: 0.2s;
+  border-bottom: 2px solid #ffd79d;
+
+}
+
+.navbar-categories ul {
+  border-radius: 15px;
+  box-sizing: border-box;
+}

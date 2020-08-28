@@ -1,0 +1,305 @@
+.col-sm-4:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 5px 5px #b290e0;
+    transition: 0.5s;
+    z-index: 1;
+  }
+  .bike-unavailable {
+    opacity: 0.6;
+  }
+  .bikes-search {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: space-between;
+  }
+  .bikes-search .btn-sort {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-sort{
+    display: flex;
+  }
+  .btn-sort button{
+    border: 1px solid #610fd6;
+    border-radius: 5px;
+    background-color: forestgreen;
+    color: white;
+    height: 40px;
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+  }
+  .btn-sort button:hover {
+    background-color: #610fd6;
+    transition: 0.3s;
+  }
+  #search-input {
+    width: 200px;
+    height: 30px;
+  }
+  #search-button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #610fd6;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 5px;
+  }
+  #search-button:hover {
+    background-color: #610fd6;
+    transition: 0.3s;
+  }
+  .bikes-btn-search {
+    float: left;
+  }
+
+#custom-select-text{
+background-color:forestgreen;
+color:white;
+  }
+  .col-sm{
+    background-size: 400px 250px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: gainsboro;
+    line-height: 20px;
+    
+}
+
+#bikes-container .col-sm-4{
+    margin-bottom: 150px;
+}
+div.col-sm{
+    margin-top: 2%;
+    width:  400px;
+    padding: 0;
+}
+div#bikes-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    align-content: center;
+    border-color: lightseagreen;
+    width: 1200px;
+    margin: 50px auto;
+    font-family: sans-serif;
+}
+.responsive-text{
+ margin-left: 1%;
+  font-weight: 700;
+    
+}
+.bike-name{
+    display:flex;
+    justify-content: center;
+}
+.bike-category p{
+    margin-left:1%;
+    display: flex;
+}
+.bike-price p {
+    margin-left: 1%;
+    display:flex;
+
+}
+.bike-price-color{
+     color:forestgreen;
+}
+.btn-info {
+    color: #fff;    
+    border-color: white;
+}
+.bike-btn-details{
+display: flex;
+justify-content: center;
+/* margin-bottom: 2%; */
+margin-top: auto;
+font-weight: 900;
+font-family: sans-serif;
+border:0px;
+border-color: whitesmoke;
+margin-bottom:2%;
+
+}
+.bike-btn-details a {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8e5fcb+0,8247c1+4,8247c1+4,8247c1+6,8247c1+6,8247c1+7,5700a8+47,9137db+100 */
+background: #8e5fcb; /* Old browsers */
+background: -moz-linear-gradient(top,  #8e5fcb 0%, #8247c1 4%, #8247c1 4%, #8247c1 6%, #8247c1 6%, #8247c1 7%, #5700a8 47%, #9137db 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #8e5fcb 0%,#8247c1 4%,#8247c1 4%,#8247c1 6%,#8247c1 6%,#8247c1 7%,#5700a8 47%,#9137db 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #8e5fcb 0%,#8247c1 4%,#8247c1 4%,#8247c1 6%,#8247c1 6%,#8247c1 7%,#5700a8 47%,#9137db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e5fcb', endColorstr='#9137db',GradientType=0 ); /* IE6-9 */
+
+}
+.bike-btn-details a:hover{
+    background: antiquewhite;
+    color: black;
+    font-weight: 500;
+    transition: 0.9s;
+    opacity:0.5;
+    border-radius: 10px;    
+}
+.bike-description{
+    flex: 1;
+}
+.col-sm img {
+    border: 0;
+}
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 0;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+.bike-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.checkmark {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+.checkmark_circle {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: green;
+  border-radius: 11px;
+  left: 0;
+  top: 0;
+}
+
+.checkmark_stem {
+  position: absolute;
+  width: 3px;
+  height: 9px;
+  background-color: #fff;
+  left: 11px;
+  top: 6px;
+}
+
+.checkmark_kick {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  left: 8px;
+  top: 12px;
+}
+.not-available {
+  display: flex;
+}
+
+.not-available not-checkmark {
+  margin-left: 1%;
+}
+
+.not-checkmark {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+.not-checkmark_circle {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: red;
+  border-radius: 11px;
+  left: 0;
+  top: 0;
+}
+.font-color-available {
+  margin-right: 10px;
+  border-bottom: 1px solid green;
+  margin-left: 1%;
+}
+.font-color-not-available {
+  margin-right: 10px;
+  border-bottom: 1px solid red;
+  margin-left: 1%;
+}
+.not-checkmark_stem {
+  position: absolute;
+  width: 3px;
+  height: 10px;
+  background-color: #fff;
+  left: 10px;
+  top: 6px;
+  transform: rotate(1deg);
+
+}
+
+.not-checkmark_kick {
+  position: absolute;
+  width: 3px;
+  height: 10px;
+  background-color: #fff;
+  left: 10px;
+  top: 6px;
+  transform: rotate(80deg);
+
+}
+.available {
+  display: flex;
+}
+.bikes-search{
+  display:flex;
+  justify-content: center;  
+  padding: 0px;
+
+}
+.bikes-search input{
+  width: 300px;
+  height: 40px;
+}
+.bikes-components{
+  display: flex;
+  justify-content: space-between;
+}
+.bikes-components .input-comp{
+  width: 30%;
+}
+.bike-modal{
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background:rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+
+}
+.bike-modal-body{
+  padding:2rem;
+  width: 500px;
+  border-radius: 5px;
+  background:white;
+  height: 300px;
+}
+.btn-modal{
+  display:flex;
+  justify-content: flex-end;
+}
+.btn-modal-close{
+  border: 2px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.btn-modal-close:hover{
+  border: 2px solid rgba(37, 37, 37, 0.63);
+  transition:0.3s;
+}

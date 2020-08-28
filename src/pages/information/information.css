@@ -1,0 +1,11 @@
+.information{
+    background-color: #610fd6;
+    border:10px solid #ffd79d;
+    width: 40%;
+    box-shadow: 0 7px 30px -6px rgba(0, 0, 0, 0.600);
+    border-radius: 15px;
+}
+.information-text h2{
+    color:white;
+    font-size: 20px;
+}

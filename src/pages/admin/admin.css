@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+  table{
+      width: 100%;
+      padding: 30px;
+  }
+  td svg{
+    color:#31b131;
+      font-size: 30px;
+  }
+  td svg:hover{
+    color:#398039;
+  }
+  .btn-edit{
+      display: flex;
+      justify-content: center;
+  }

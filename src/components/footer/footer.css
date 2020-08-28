@@ -1,0 +1,14 @@
+ footer{
+  background-color: #610fd6;
+  color: white;
+padding: 30px;
+box-shadow: 0 7px 30px -6px rgba(0, 0, 0, 0.900);
+    }
+      .widget-title {
+        margin-top: 15px;
+        color: white;
+        border-bottom: 2px solid #ffd79d;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+      }
